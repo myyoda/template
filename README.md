@@ -8,16 +8,16 @@ TODO stubs for CI banners
 
 ## Files organization
 
-- [ci/]() - scripts and configurations for CI platforms (Travis, Circle-CI, etc)
-- [code/]() - analysis scripts
-- [docs/]() - documentation, notes, papers (pre-prints), etc
-- [envs/]() - images and/or specification of complete environments (singularity, docker, etc)
-- [inputs/]() - dataset(s) which served as inputs for the study
-- [outputs/]() - results of analysis using `code/`, `envs/`, and `inputs/`
-- [tests/]() - various tests to verify correct operation of code etc
-- [CHANGELOG.md]() - summary of changes/progress
-- [HOWTO.md]() - various details on using/manipulating provided materials
-- [README.md]() - high level overview of the study
+- [ci/](./ci) - scripts and configurations for CI platforms (Travis, Circle-CI, etc)
+- [code/](./code) - analysis scripts
+- [docs/](./docs) - documentation, notes, papers (pre-prints), etc
+- [envs/](./envs) - images and/or specification of complete environments (singularity, docker, etc)
+- [inputs/](./inputs) - dataset(s) which served as inputs for the study
+- [outputs/](./outputs) - results of analysis using `code/`, `envs/`, and `inputs/`
+- [tests/](./tests) - various tests to verify correct operation of code etc
+- [CHANGELOG.md](./CHANGELOG.md) - summary of changes/progress
+- [HOWTO.md](./HOWTO.md) - various details on using/manipulating provided materials
+- [README.md](./README.md) - high level overview of the study
 
 YODATODO adjust aforementioned list and description below for your particular case/study.
 Any of the aforementioned directories could be, or could contain, other
